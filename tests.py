@@ -148,7 +148,6 @@ class WebTestCase(unittest.TestCase):
         A call to /asdf.txt (a file which does not exist in webroot) yields a 404 error
         """
         file = 'asdf.txt'
-
         web_path = '/' + file
         error_comment = "Error encountered while visiting " + web_path
 
